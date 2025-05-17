@@ -11,6 +11,50 @@ The output, via the following technical aspects, should provide a scalable and m
 
 - Entity and Attribute Identification:
   Analyzed operational data sources to identify core entities such as staff, store locations, and product inventory, along with relevant attributes.
+  - Staff - staff
+    - ID (of staff)
+    - First Name
+    - Last Name
+    - Position
+    - Start Date
+    - Location
+
+  - Business Locations - sales_outlet
+    -   ID (of sales_outlet)
+    -   Type of Location
+    -   Street Address
+    -   City
+    -   Telephone Number
+    -   Postal Code
+    -   Manager ID
+
+  - Customer Transactions - sales_transaction
+    - ID (of transaction)
+    - Date of Sale
+    - Time of Sale
+    - ID (of sales_outlet)
+    - ID (of staff)
+    - ID (of customer)
+    - ID (or product)
+    - Quantity Sold
+    - Sale Price
+
+  - Customer Demographic Info - customer
+    - ID (of customer)
+    - Customer Name
+    - Customer Email
+    - Date of first visit
+    - Credit Card #
+    - Birthday
+    - Gender
+
+  - Product Inventory - product
+    - ID (of product)
+    - Category of Product
+    - Type of Product within the category
+    - Name of the Product
+    - Description of the Product
+    - Price of Product
 
 - Database Modeling and Normalization
   Created an entity-relationship diagram (ERD) and normalized all tables to Third Normal Form (3NF) to reduce redundancy and improve data integrity.
