@@ -28,3 +28,9 @@ The output, via the following technical aspects, should provide a scalable and m
   Output data from views was exported as CSV files and archived in a structured format for reporting and presentation purposes.
 
 This work demonstrates key data engineering competencies in relational modeling, SQL development, cross-platform data handling, and data lifecycle management.
+
+The datasets used are:
+
+
+![image](https://github.com/user-attachments/assets/b5d8306d-26a4-4682-af45-e9779785e769)
+
